@@ -1,5 +1,4 @@
 const path = require('path');
-const convertTime = require('../js/app');
 
 module.exports = function(app) {
   app.get('/', function(req, res) {
